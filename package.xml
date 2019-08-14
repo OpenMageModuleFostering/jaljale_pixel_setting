@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>Jaljale_Pixel_Setting</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Magento module for Facebook Conversion Tracking and Custom Audience Re-targeting for Facebook </summary>
+    <description>Magento module for Facebook Conversion Tracking and Custom Audience Re-targeting for Facebook &#xD;
+&#xD;
+&#x201C;Facebook Audience Pixel&#x201D; gives you the ability for superior advertising targeting audience of people who have visited your website (while logged in to Facebook).&#xD;
+&#xD;
+&#x201C;Conversion-Tracking Pixel&#x201D; is an amazing conversion measurement tool launched by facebook, Facebook advertisers can access to their ROI (Return of Investment) by keeping a track over user actions.&#xD;
+&#xD;
+This module helps businesses, measure the performance of their Facebook Ads by reporting on the actions people take after viewing those ads.&#xD;
+&#xD;
+Advertisers can create pixels that track conversions, add them to the pages of their website where the conversions will happen, and then track these conversions back to ads they are running on Facebook.&#xD;
+</description>
+    <notes>Initial release for facebook pixel setting and conversion tracking.</notes>
+    <authors><author><name>Krish</name><user>jaljale</user><email>jaljaletech@gmail.com</email></author><author><name>Subin Shrestha</name><user>sthasbin</user><email>sthasbin@jaljale.com</email></author></authors>
+    <date>2015-06-17</date>
+    <time>09:41:35</time>
+    <contents><target name="magecommunity"><dir name="Jaljale"><dir name="Pixel"><dir name="Block"><file name="Index.php" hash="133c09a8d380f089fbd4bef292c51578"/></dir><dir name="Helper"><file name="Data.php" hash="4e07e3897562838a721075079cecd855"/></dir><dir name="controllers"><file name="IndexController.php" hash="746d0e3172aa6c04e304dc0d912b2596"/></dir><dir name="etc"><file name="adminhtml.xml" hash="725829fdcedd69142d6fad0efa36ec3e"/><file name="config.xml" hash="482be426959e462eb5c95a0db767ae84"/><file name="system.xml" hash="2253a01a4ebfa62b52bb1e250956a0f3"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="pixel.xml" hash="6dcc42d26ad17cde4ee38bfc5974db75"/></dir><dir name="template"><dir name="pixel"><file name="index.phtml" hash="65366783fcc9f9e62d53156f1826e53c"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jaljale_Pixel.xml" hash="b32d7c4d8db1e19d09dbe4cda739cd59"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.3</min><max>6.5.5</max></php></required></dependencies>
+</package>

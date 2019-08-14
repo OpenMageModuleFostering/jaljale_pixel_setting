@@ -1,0 +1,12 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <default>   
+    <reference name="root">   
+      <action method="setTemplate"><template>page/1column.phtml</template></action>   
+    </reference>   
+    <reference name="head">   
+      <block type="pixel/index" name="pixel_index" template="pixel/index.phtml"/>   
+    </reference>   
+  </default>   
+</layout>   
+	

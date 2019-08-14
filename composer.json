@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Jaljale_Pixel_Setting",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Magento module for Facebook Conversion Tracking and Custom Audience Re-targeting for Facebook ",
+    "authors": [
+    {
+        "name": "Krish",
+        "email": "jaljaletech@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
